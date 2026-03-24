@@ -14,13 +14,13 @@ export default function About() {
                 <div className="h-3 w-3 rounded-full bg-green-500"></div>
               </div>
               <pre className="text-sm font-mono text-slate-300 overflow-x-auto">
-                <code className="block text-green-400 mb-2">// Background</code>
+                <code className="block text-green-400 mb-2">{"// Background"}</code>
                 <code className="block">const arjun = {'{'}</code>
-                <code className="block text-cyan-400">  degree: "B.Com",</code>
-                <code className="block text-purple-400">  diploma: "PDCFA",</code>
-                <code className="block text-yellow-500">  certification: "QA Training",</code>
-                <code className="block">  skills: ["Manual Testing", "Automation"],</code>
-                <code className="block">  status: "QA Intern"</code>
+                <code className="block text-cyan-400">  degree: &quot;B.Com&quot;,</code>
+                <code className="block text-purple-400">  diploma: &quot;PDCFA&quot;,</code>
+                <code className="block text-yellow-500">  certification: &quot;QA Training&quot;,</code>
+                <code className="block">  skills: [&quot;Manual Testing&quot;, &quot;Automation&quot;],</code>
+                <code className="block">  status: &quot;QA Intern&quot;</code>
                 <code className="block">{'}'};</code>
               </pre>
             </div>
